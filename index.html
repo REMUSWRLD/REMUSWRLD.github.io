@@ -6,21 +6,90 @@
     <title>Remu's World</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
+    <header id="banner">
         <img src="banner.png" alt="Remu's World">
+        <nav>
+            <a href="#homed">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
     </header>
 
     <main>
-        <section class="intro">
-            <h1>Welcome to Remu's World</h1>
-            <p>This is a space where creativity meets innovation. Explore my journey in tech.</p>
+        <section id="Home" class="intro section">
+            <h1>Hi there! Follow along with my journey in tech.</h1>
+            <p>View and demo projects below</p>
             <a class="button">Coming soon...</a>
+        </section>
+
+        <section id="projects" class="projects section">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>HealthBase</h3>
+                <p>This is one of my first full-stack projects, aimed at renovating eMRS.
+                    Its ultimate goal is to centralize medical record data. 
+                    Current systems require too much communication from other places. 
+                    HealthBase cuts out those other services,
+                    reaching higher efficiency with some big time consumers like billing and communication.
+                </p>
+                <p>No audits necessary.</p>
+                <p><strong>Technologies:</strong> Java, SQL, HTML, CSS, JavaScript.</p>
+                <!-- Project Demo -->
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Front End</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Vue.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Back End</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Spring Boot</li>
+                        <li>JDBC</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Table Design</li>
+                        <li>E/R Diagrams</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Methodologies</h3>
+                    <ul>
+                        <li>Agile</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Testing</h3>
+                    <ul>
+                        <li>Unit Testing (JUnit)</li>
+                        <li>Integration Testing</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>Connect with me on <a href="https://github.com/REMUSWRLD">GitHub</a> | Contact me via <a href="mailto:geremumck99@gmail.com">Email</a></p>
+        <p>Connect with me on <a href="https://github.com/REMUSWRLD">GitHub</a> | Contact me via <a href="contact.html">Email</a></p>
     </footer>
 </body>
 </html>
